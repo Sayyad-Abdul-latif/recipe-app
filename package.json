@@ -2,7 +2,7 @@
   "name": "recipe-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://github.com/Sayyad-Abdul-latif/recipe-app", 
+  "homepage": "http://Sayyad-Abdul-latif.github.io/recipe-app", 
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
