@@ -53,6 +53,11 @@ const DetailWrapper = styled.div`
   margin-top: 7rem;
   margin-bottom: 5rem;
   display: flex;
+  @media (max-width:1000px){
+    text-align: left;
+    margin-top: 4rem;
+    flex-direction: column;
+  }
   .active{
     background: linear-gradient(35deg , #494949 , #313131);
     color: white;
@@ -60,6 +65,9 @@ const DetailWrapper = styled.div`
   h2,h3{
     margin-top: 2rem;
     margin-bottom: 2rem;
+    @media (max-width:1000px){
+      margin-top: 0.4rem;
+    }
   }
   .li{
     font-size: 1rem;
@@ -71,6 +79,11 @@ const DetailWrapper = styled.div`
   img{
     height: 20rem;
     width: 25rem;
+    border-radius: 2rem;
+    @media (max-width:1000px){
+      height: 15rem;
+      width: 20rem;
+    }
   }
 `
 const Button = styled.button`
@@ -80,10 +93,18 @@ const Button = styled.button`
   border: 2px solid black;
   margin-right: 1.5rem;
   font-weight: 600;
+  @media (max-width:1000px){
+    margin-top: 2rem;
+    padding: 0.6rem 1rem;
+    margin-right: 0.4rem;
+  }
 `
 
 const Info = styled.div`
   margin-left: 10rem;
+  @media (max-width:1000px){
+    margin-left: 1rem;
+  }
 
 `
 

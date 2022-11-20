@@ -37,7 +37,7 @@ function Veggie() {
         arrows:false,
         pagination:false,
         drag:"free",
-        gap:'8rem', 
+        gap:'15rem', 
       }}>
       {veggie.map((recipe) =>{
         return(
@@ -62,13 +62,20 @@ function Veggie() {
 const Wrapper = styled.div`
 margin: 2rem 0rem;
 text-align: center;
+
+
 `;
 const Card = styled.div`
 min-height:15rem;
-/* width: 20rem; */
+width: 20rem;
 border-radius:2rem;
 overflow:hidden;
 position: relative;
+@media (max-width:1000px){
+  width: 10rem;
+  margin-right: 5rem;
+  
+}
 img{
   border-radius: 2rem;
   position: absolute;
@@ -92,6 +99,10 @@ p{
   display:flex;
   justify-content: center;
   align-items: center;
+
+  @media (max-width:1000px){
+    font-size: 0.6rem;
+  }
 }
 `
 

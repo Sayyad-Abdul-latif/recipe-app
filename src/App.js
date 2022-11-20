@@ -11,7 +11,7 @@ function App() {
       <HashRouter>
         <Nav>
           <GiKnifeFork />
-          <Logo to={"/"}>delicious </Logo>
+          <Logo to={"/"}>Recipe hub </Logo>
         </Nav>
         <Search />
         <Category />

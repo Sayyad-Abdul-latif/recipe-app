@@ -19,8 +19,11 @@ body {
 }
 html{
 
-     background:linear-gradient(rgb(226, 226, 248),rgb(201, 229, 255));
+     background:linear-gradient(rgb(253, 253, 254),rgb(192, 209, 249));
 
+}
+html,body{
+  overflow-x: hidden;
 }
 h4{
   font-size: 0.8rem;

@@ -33,11 +33,11 @@ function Popular() {
     <Wrapper>
       <h3>Popular Picks</h3>
       <Splide options={{
-        perPage:4,
+        perPage:3,
         arrows:false,
         pagination:false,
         drag:"free",
-        gap:'5rem', 
+        gap:'15rem', 
       }}>
       {popular.map((recipe) =>{
         return(
@@ -69,6 +69,11 @@ border-radius:2rem;
 /* width: 10rem; */
 overflow:hidden;
 position: relative;
+@media (max-width:1000px){
+  width: 10rem;
+  margin-right: 5rem;
+  
+}
 img{
   border-radius: 2rem;
   position: absolute;
@@ -92,6 +97,9 @@ p{
   display:flex;
   justify-content: center;
   align-items: center;
+  @media (max-width:1000px){
+    font-size: 0.6rem;
+  }
 }
 `
 

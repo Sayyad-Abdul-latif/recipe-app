@@ -46,9 +46,17 @@ const SLink = styled(NavLink)`
     height: 5rem;
     cursor: pointer;
     transform: scale(0.8);
+    @media (max-width:1000px) {
+        width: 3.5rem;
+        height: 3.5rem;
+        margin: 0rem 0.7rem;
+    }
     h4{
         color:white;
         font-size: 0.7rem;
+        @media (max-width:1000px){
+            font-size: 0.4rem;
+        }
     }
     svg{
         color: white;
